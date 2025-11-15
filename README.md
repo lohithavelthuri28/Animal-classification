@@ -21,11 +21,17 @@ animal_classification_project/
 
 │
 ├── train.py  # Train the model
-├── inference.py           # Predict one image
-├── batch_infer.py         # Predict multiple images (folder)
-├── app.py                 # Streamlit web app (optional)
-├── requirements.txt       # Python dependencies
-└── sample_images/         # Example images (optional)
+
+├── inference.py   # Predict one image
+
+├── batch_infer.py   # Predict multiple images (folder)
+
+├── app.py        # Streamlit web app (optional)
+
+├── requirements.txt    # Python dependencies
+
+└── sample_images/      # Example images (optional)
+
 
 🔧 Installation
 1. Create virtual environment
@@ -99,4 +105,5 @@ Feel free to fork this repo and improve the project.
 📄 License
 
 This project is for educational and research purposes.
+
 
