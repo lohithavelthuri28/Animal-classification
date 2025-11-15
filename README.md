@@ -54,6 +54,8 @@ Run:
 
 python train.py
 
+<img width="1232" height="404" alt="Screenshot 2025-11-15 214217" src="https://github.com/user-attachments/assets/2f6c3867-675e-4f3a-b243-158b91621876" />
+
 
 This generates:
 
@@ -76,7 +78,6 @@ python batch_infer.py --folder sample_images --topk 3 --out predictions.csv
 Run the web app:
 
 streamlit run app.py
-Upload an ima<img width="1232" height="404" alt="Screenshot 2025-11-15 214217" src="https://github.com/user-attachments/assets/f5cd91f4-2141-4075-aa89-01f223af29cd" />
 ge and view the model’s prediction.
 
 📥 Model File (Not Included)
@@ -106,6 +107,7 @@ Feel free to fork this repo and improve the project.
 📄 License
 
 This project is for educational and research purposes.
+
 
 
 
