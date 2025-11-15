@@ -1,19 +1,20 @@
-Animal Classification Using Deep Learning
+🐾 Animal Classification Using Deep Learning
 
 This project classifies animal images using a ResNet18 model trained with PyTorch.
-It supports:
 
-Training a custom model
+✨ Features
 
-Predicting a single image
+Train a custom classification model
 
-Predicting an entire folder of images (batch mode)
+Predict a single image
 
-Optional Streamlit app for GUI-based classification
+Predict a full folder of images (batch mode)
+
+Optional Streamlit web app for GUI-based classification
 
 Note:
-The trained model file (animal_classifier.ckpt) is not included in this repository due to file size.
-You can train your own model or download the model from your own link (if you upload it to Google Drive).
+The model file animal_classifier.ckpt is not included due to its size.
+You can train your own using train.py or download it from your own link.
 
 📁 Project Structure
 animal_classification_project/
@@ -23,74 +24,64 @@ animal_classification_project/
 ├── batch_infer.py         # Predict multiple images (folder)
 ├── app.py                 # Streamlit web app (optional)
 ├── requirements.txt       # Python dependencies
-└── sample_images/         # Example test images (optional)
+└── sample_images/         # Example images (optional)
 
 🔧 Installation
-
-Create a virtual environment:
-
+1. Create virtual environment
 python -m venv venv
 
-
-Activate it:
+2. Activate it
 
 Windows:
 
 venv\Scripts\activate
 
-
-Install dependencies:
-
+3. Install dependencies
 pip install -r requirements.txt
 
 🏋️‍♂️ Training the Model
 
-To train the model using your dataset:
+Make sure your dataset is inside a folder named dataset with subfolders per class.
+
+Run:
 
 python train.py
 
 
-After training, a file named:
+This generates:
 
 animal_classifier.ckpt
-
-
-will be created in the project folder.
 
 🔍 Inference (Single Image)
 
 Run prediction on one image:
 
-python inference.py --image path_to_image.jpg --topk 5
+python inference.py --image sample_images/lion.jpg --topk 5
 
+📦 Batch Inference (All Images in a Folder)
 
-Example:
-
-python inference.py --image sample_images/lion.jpg
-
-📦 Batch Inference (Folder of Images)
-
-Predict all images in a directory and save results to a CSV file:
+Predict all images in a directory and save results:
 
 python batch_infer.py --folder sample_images --topk 3 --out predictions.csv
 
 🌐 Optional: Streamlit App
 
-Launch a simple UI for uploading images and viewing predictions:
+Run the web app:
 
 streamlit run app.py
 
+
+Upload an image and view the model’s prediction.
+
 📥 Model File (Not Included)
 
-The file animal_classifier.ckpt is not included in this repository due to size limits.
+The CKPT file is not stored in this repo because it is large.
 
-You can:
+You can either:
 
-Train your own using train.py, or
+Train your own model using train.py, or
 
-Download the model from your Google Drive link and place it in the project folder.
-
-(If you want, add your own download link here.)
+Download your trained model from your Google Drive link (add your link here)
 
 📸 Example Output
 Predictions for: Lion_1_1.jpg
@@ -100,10 +91,10 @@ Predictions for: Lion_1_1.jpg
 4. Bear — 0.19%
 5. Elephant — 0.13%
 
-🤝 Contributions
+🤝 Contribution
 
-Feel free to modify, improve, or extend this project.
+Feel free to fork this repo and improve the project.
 
 📄 License
 
-This project is for educational purposes.
+This project is for educational and research purposes.
