@@ -18,8 +18,9 @@ You can train your own using train.py or download it from your own link.
 
 📁 Project Structure
 animal_classification_project/
+
 │
-├── train.py               # Train the model
+├── train.py  # Train the model
 ├── inference.py           # Predict one image
 ├── batch_infer.py         # Predict multiple images (folder)
 ├── app.py                 # Streamlit web app (optional)
@@ -98,3 +99,4 @@ Feel free to fork this repo and improve the project.
 📄 License
 
 This project is for educational and research purposes.
+
