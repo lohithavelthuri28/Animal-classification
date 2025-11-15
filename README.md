@@ -76,9 +76,8 @@ python batch_infer.py --folder sample_images --topk 3 --out predictions.csv
 Run the web app:
 
 streamlit run app.py
-
-
-Upload an image and view the model’s prediction.
+Upload an ima<img width="1232" height="404" alt="Screenshot 2025-11-15 214217" src="https://github.com/user-attachments/assets/f5cd91f4-2141-4075-aa89-01f223af29cd" />
+ge and view the model’s prediction.
 
 📥 Model File (Not Included)
 
@@ -89,6 +88,8 @@ You can either:
 Train your own model using train.py, or
 
 Download your trained model from your Google Drive link (add your link here)
+
+<img width="1222" height="382" alt="Screenshot 2025-11-15 214234" src="https://github.com/user-attachments/assets/e58d1548-f1cf-41fe-98aa-001160868a19" />
 
 📸 Example Output
 Predictions for: Lion_1_1.jpg
@@ -105,6 +106,7 @@ Feel free to fork this repo and improve the project.
 📄 License
 
 This project is for educational and research purposes.
+
 
 
 
