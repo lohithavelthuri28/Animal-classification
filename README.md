@@ -1,4 +1,4 @@
-🐾 Animal Classification Using Deep Learning
+#🐾 Animal Classification Using Deep Learning
 
 This project classifies animal images using a ResNet18 model trained with PyTorch.
 
@@ -105,5 +105,6 @@ Feel free to fork this repo and improve the project.
 📄 License
 
 This project is for educational and research purposes.
+
 
 
